@@ -81,25 +81,25 @@ const Footer = () => {
 
                 {/* Bottom bar: Copyright and Socials */}
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-                    <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
-                        <p className="text-sm text-gray-500 mb-4 sm:mb-0">
+                     {/* MODIFICATION: Changed flex-col to sm:flex-row and added gap-y-4 for better spacing on mobile */}
+                    <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-y-4">
+                        <p className="text-sm text-gray-500">
                             &copy; {new Date().getFullYear()} Layers. All Rights Reserved.
                         </p>
                         <div className="flex space-x-6">
-                            {/* <motion.a href="#" variants={socialIconVariants} initial="initial" whileHover="hover"><Twitter /></motion.a> */}
                             <motion.a href="https://www.instagram.com/_ravi_shetty_" variants={socialIconVariants} initial="initial" whileHover="hover"><Instagram /></motion.a>
                             <motion.a href="https://www.linkedin.com/in/ravi-m-shetty/" variants={socialIconVariants} initial="initial" whileHover="hover"><Linkedin /></motion.a>
                         </div>
                     </div>
                      {/* Hackathon and Portfolio Section */}
-                     <div className="text-xs text-gray-600 space-y-2 bg-black p-4 rounded-lg">
-                        <p className="flex items-center justify-center gap-1.5">
+                     <div className="text-xs text-gray-600 space-y-2 bg-black/50 p-4 rounded-lg mt-8 border border-gray-800">
+                        <p className="max-w-md mx-auto">
                             A reimagined concept of Layers, built with <Heart className="inline-block text-red-500" size={12} fill="currentColor" /> for the Sheryians Hackathon.
                         </p>
                         <p>Thanks for the great experience!</p>
-                        <div className="pt-2 mt-2 ">
+                        <div className="pt-2 mt-2">
                             <motion.a 
-                                href="https://ravishetty-portfolio.netlify.app/" // Replace with your portfolio link
+                                href="https://ravishetty-portfolio.netlify.app/"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-2 text-gray-500 hover:text-blue-400 transition-colors"
