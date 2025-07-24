@@ -1,0 +1,20 @@
+/* These three lines are the standard Tailwind CSS directives.
+  They must be at the top of this file.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- MOBILE CURSOR FIX ---
+  This CSS is a crucial fallback. 
+  
+  Your App.jsx has a `cursor-none` class to hide the default mouse cursor on desktops.
+  This media query targets devices with touch screens (where `pointer` is `coarse`)
+  and restores the default system cursor (`cursor: auto`), so you don't end up with
+  no cursor at all on mobile.
+*/
+@media (pointer: coarse) {
+  .cursor-none {
+    cursor: auto;
+  }
+}
