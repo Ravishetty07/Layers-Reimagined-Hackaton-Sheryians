@@ -17,7 +17,7 @@ oth animations, component-based structure, and full responsiveness.
 
 ## 🔗 Live & Demo Links
 
-- 🚀 **Live Website**: [layers-website.vercel.app](https://layers-reimagined-hackathon-sheryians.netlify.app/)  
+- 🚀 **Live Website**: [layers-Reimagined](https://layers-reimagined-hackathon-sheryians.netlify.app/)  
 
 
 ---
