@@ -159,7 +159,7 @@ const LoginPage = () => {
                                 <motion.button 
                                     variants={formItemVariants}
                                     type="submit" 
-                                    className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold py-3 rounded-lg transition-all duration-300 shadow-lg shadow-transparent hover:shadow-blue-600/40"
+                                    className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold py-3 rounded-lg transition-all duration-200 ease-linear shadow-lg shadow-transparent hover:shadow-blue-600/40"
                                     whileHover={{ scale: 1.05, y: -2 }}
                                     whileTap={{ scale: 0.95 }}
                                 >

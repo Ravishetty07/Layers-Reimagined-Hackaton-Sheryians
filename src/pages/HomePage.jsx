@@ -138,10 +138,10 @@ const DesktopHero = ({ setPage }) => {
     const feature1X = useTransform(scrollYProgress, [0.05, 0.15], [-50, 0]);
     const feature2Opacity = useTransform(scrollYProgress, [0.25, 0.35, 0.45], [0, 1, 0]);
     const feature2X = useTransform(scrollYProgress, [0.25, 0.35], [50, 0]);
-    const heroContainerOpacity = useTransform(scrollYProgress, [0.5, 1], [1, 0]);
+    const heroContainerOpacity = useTransform(scrollYProgress, [0.8, 1], [1, 0]);
 
     return (
-        <div ref={heroRef} className="relative h-[800vh] bg-black">
+        <div ref={heroRef} className="relative h-[500vh] bg-black">
             <motion.div 
                 className="sticky top-7 h-screen overflow-hidden"
                 style={{ opacity: heroContainerOpacity, perspective: "1000px" }}
