@@ -3,7 +3,9 @@
 
 ✨ **Submission for the Sheryians Coding School Hackathon (Phase 1)** ✨
 
-**Layers** is a modern, dynamic, and fully responsive e-commerce concept website built for an Indian startup brand. Inspired by the creative energy of **Tech Burner**, this project merges aesthetic appeal with seamless functionality, delivering an immersive user experience with smooth animations, component-based structure, and full responsiveness.
+**Layers** is a modern, dynamic, and fully responsive e-commerce concept website built for an Indian startup brand. Inspired by the creative energy of **Tech Burner**, this project merges aesthetic appeal with seamless functionality, delivering an immersive user experience with smo
+
+oth animations, component-based structure, and full responsiveness.
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge"/>
@@ -23,7 +25,7 @@
 ## 🖼️ Project Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ravishetty07/layers-reimagined/main/preview.png" alt="Project Preview" width="100%"/>
+  <img src="https://github.com/Ravishetty07/Layers-Reimagined-Hackaton-Sheryians/blob/main/public/preview.png" alt="Project Preview" width="100%"/>
 </p>
 
 
